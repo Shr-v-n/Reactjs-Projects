@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .mainContainer{
+    border:1px solid black;
+    height: 100vh;
+    background-image: url("../images/Lucid_Realism_a_cinematic_photo_of_A_richly_detailed_overhead__2.jpg");
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  }
+  

@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Roboto-Black";
+    src: url('../fonts/Roboto_Condensed-Medium.ttf');
+}
+
+:root {
+    --color-accent: #d97706;       
+    --color-background: #1f1f1f;   
+    --color-secondary: #5c4033;    
+    --color-heading: #fdf6e3;      
+    --color-text: #c0b9b2;         
+    --color-highlight: #7b2c2c;    
+}
+
+.foodCard{
+height: 200px;
+width: 450px;
+margin-top: 50px;
+display:flex;
+}
+
+.imageContainer{
+    height: 200px;
+    border-radius: 80px;
+
+    /* border: 1px solid red; */
+}
+
+.infoContainer{
+    margin: 10px;
+}
+
+.infoContainer h1{
+    font-family: "Roboto-Black";
+    color: var(--color-background);
+    letter-spacing: 1px;
+    text-shadow: 
+        -1px -1px 0 gray,
+        1px -1px 0 gray,
+        -1px 1px 0 gray,
+        1px 1px 0 gray;
+}
+
+.infoContainer p{
+    font-family: "Roboto-Black";
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.price{
+    justify-self: flex-end;
+}
+
+.ratingContainer {
+    justify-self: flex-end;
+    display: flex;
+    gap: 2px;
+  }
+  
+  .star {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    color: gold;
+  }
+  
+  .partialStar {
+    position: absolute;
+    overflow: hidden;
+    color: gold;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+  }
+  
+  .emptyStar {
+    color: white;
+  }

@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#maincontainer{
+    display:flex;   
+    width:1150px;
+    height:613px;
+    /* border:1px solid black; */
+    margin-left: 200px;
+    margin-top:30px;
+}
+
+#left_half_container{
+    width: 595px;
+    margin-left: 40px;
+    /* border: 1px solid black; */
+}
+
+#main_heading_container{
+    margin-top: 30px;
+    /* margin-left: 30px; */
+    font-size: 48px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#sub_text_container{
+    /* border:1px solid black; */
+    margin-top:15px;
+    /* margin-left: 30px; */
+    width: 450px;
+}
+
+#buttons_below_text_container{
+    width:331px;
+    margin-top: 20px;
+    display:flex;
+    /* border:1px solid black; */
+    justify-content: space-between;
+}
+
+.buttons_below_text{
+    width:150px;
+    height: 35px;
+}
+
+#shop_now_button{
+    background-color: rgb(231, 43, 22);
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#shop_now_button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 25, 0);
+    box-shadow: 1px 1px black;
+    transition: 0.3s ease;
+}
+
+#details_button{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#details_button:hover{
+    cursor: pointer;
+    background-color: rgb(167, 167, 167);
+    box-shadow: 1px 1px black;
+    transition: 0.3s ease;
+}
+
+#icon_container{
+    margin-top: 15px;
+}
+
+.ecommerce_icons{
+    width:24px;
+    margin:3px;
+}
+
+.ecommerce_icons:hover{
+    cursor: pointer;
+    background-color: rgb(203, 203, 203);
+    transition: 0.3s ease;
+}
+
+#right_half_container{
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+    /* border:1px solid black; */
+}
+
+#right_half_container img:hover{
+    background-color: rgb(251, 141, 141);
+    transition: 3s ease;
+    border-radius: 200px;
+}

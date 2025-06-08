@@ -1,0 +1,49 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+#navbar_container{
+    display: flex;
+    max-width: 1340px;
+    height: 72px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#brand_logo{
+    width:85px;
+    align-self: center;
+}
+
+#navbar_button{
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 34px;
+    align-self: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: center;
+    background-color: #dc1313;
+    color: white;
+}
+
+#navbar_button:hover{
+    background-color: #ff0000;
+    box-shadow: 1px 1px 0px 0px rgb(137, 137, 137);
+    transition: 0.3s ease;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+#navbar_options li{
+    text-decoration: none;
+    list-style: none;
+}
+

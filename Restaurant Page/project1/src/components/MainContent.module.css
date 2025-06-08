@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Roboto-Black";
+    src: url('../fonts/Roboto_Condensed-Medium.ttf');
+}
+
+:root {
+    --color-accent: #d97706;       
+    --color-background: #1f1f1f;   
+    --color-secondary: #5c4033;    
+    --color-heading: #fdf6e3;      
+    --color-text: #c0b9b2;         
+    --color-highlight: #7b2c2c;    
+}
+
+.maincontainer{
+    height: 78vh;
+    width: 800px;
+    justify-items: right;
+    align-content: center;
+}
+
+.heroText{
+    color: var(--color-heading);
+    font-size: 4.5em;
+    width: 565px;
+    font-family:"Roboto-Black",sans-serif;
+    text-shadow: 
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000,
+        -3px 0px 0 #000,
+        3px 0px 0 #000,
+        0px -3px 0 #000,
+        0px 3px 0 #000;
+}
+
+.subHeroText{
+    padding-top: 4px;
+    color: var(--color-heading);
+    font-size: 1.4em;
+    font-family:"Roboto-Black",sans-serif;
+    width:565px;
+    font-weight: 300;
+    text-shadow: 
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000,
+        -3px 0px 0 #000,
+        3px 0px 0 #000,
+        0px -3px 0 #000,
+        0px 3px 0 #000;
+}
+
+.menuButtonContainer{
+    margin-top: 15px;
+    width: 565px;
+    font-family: "Roboto-Black",sans-serif;
+}
+
+.orderButton{
+    background-color: var(--color-background);
+    color: var(--color-accent);
+    font-size: 1.7em;
+    padding:12px 22px;
+    font-family: "Roboto-Black",sans-serif;
+    border: none;
+    border-radius: 20px 10px 20px 10px;
+    cursor: pointer;
+}
+
+.orderButton:hover {
+    background-color: var(--color-highlight);
+    color: white;
+    transition: 0.3s ease;
+    text-shadow: 
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000,
+        -3px 0px 0 #000,
+        3px 0px 0 #000,
+        0px -3px 0 #000,
+        0px 3px 0 #000;
+}
+
+.orderButton:not(hover){
+    background-color: var(--color-background);
+    color: var(--color-accent);
+    transition: 1s ease;
+}

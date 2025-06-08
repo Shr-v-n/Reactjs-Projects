@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer{
+    width: 70%;
+    justify-self: center;
+}
+
+.logoContainer{
+    justify-self: center;
+}
+
+.logo{
+    height: 160px;
+    filter: 
+        drop-shadow(0 0 2px orange)
+        drop-shadow(0 0 5px white)
+        drop-shadow(0 0 7px white);
+}   
+
+.logo:hover{
+    filter: 
+        drop-shadow(0 0 2px orange)
+        drop-shadow(0 0 10px white)
+        drop-shadow(0 0 7px white);
+}
