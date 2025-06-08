@@ -1,7 +1,8 @@
 I use this repo to keep track of my beginner reactjs projects  
 
 If you wish to view any project first simply clone this repository and once you have done that  
-run any one of the following commands depending on the project you wish to view, first clone it:  
+run any one of the following commands depending on the project you wish to view  
+Once the commands are done running you will have to open the link given in the third last line, first clone it:  
 
 #REPO CLONE COMMAND:
 
